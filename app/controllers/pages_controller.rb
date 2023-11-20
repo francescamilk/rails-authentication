@@ -6,7 +6,8 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about
+  def contacts
+    @members = ["Francesca", "Nui", "Benedetta"]
   end
 
   private 
